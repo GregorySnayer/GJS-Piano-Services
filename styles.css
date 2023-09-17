@@ -1,0 +1,336 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3022013.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Change navbar background and text color */
+.navbar {
+  background-color: #333; /* Replace with your desired background color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: white; /* White color for text */
+  font-weight: bold; /* Bold font weight */
+}
+  
+  /* Change active link color */
+.navbar-custom .navbar-nav .nav-item.active .nav-link {
+  color: #ffc107; /* Yellow color for active link */
+}
+
+  /* Add this CSS to your styles.css file */
+.navbar-brand img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* If using Font Awesome or another icon library */
+.navbar-brand i {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #000; /* Change the color as needed */
+}
+ 
+  /* Contact information styling */
+.contact-info {
+  text-align: center;
+  margin-top: 20px;
+}
+  
+.contact-form label {
+   color: white;
+   font-weight: bold;
+}
+
+.contact-info p{
+  color: white;
+   font-weight: bold;
+ }
+
+footer{
+  color: white;
+}
+
+/* Add this CSS to your styles.css file */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#home img {
+  max-width: 250px; /* Adjust the max-width to control the image size */
+  border-radius: 30%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#home h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+#home p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(133, 105, 6, 0.562); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#about img {
+  max-width: 200px; /* Adjust the max-width to control the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#about h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+#about p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#weddings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#weddings::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(180, 32, 185, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#weddings img {
+  max-width: 200px; /* Adjust the max-width to control the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#weddings h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+#weddings p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#funerals {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100%; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#funerals::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(21, 11, 109, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#funerals img {
+  max-width: 400px; /* Adjust the max-width to control the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#funerals h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+#funerals p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#create-music {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#create-music::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(75, 30, 5, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#create-music img {
+  max-width: 200px; /* Adjust the max-width to control the image size */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#create-music h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: rgb(0, 231, 50); /* Set the text color to white */
+  font-family: 'Kaushan Script';
+}
+
+#create-music p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-family: 'Kaushan Script';
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(119, 128, 2, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#contact img {
+  max-width: 300px; /* Adjust the max-width to control the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#contact h1 {
+  font-size: 2rem; /* Adjust the font size as needed */
+  color: white; /* Set the text color to white */
+}
+
+#contact p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-size: 30px;
+}
+
+/* Add this CSS to your styles.css file */
+#composing-arranging {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* This makes the section take up the full viewport height */
+  text-align: center; /* Center text horizontally */
+  position: relative; /* Make the section a positioning context */
+}
+
+#composing-arranging::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 105%;
+  background-color: rgba(2, 107, 34, 0.5); /* Adjust the color and opacity here */
+  z-index: -1; /* Place the overlay behind the content */
+}
+
+#composing-arranging img {
+  max-width: 400px; /* Adjust the max-width to control the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 20px; /* Adjust the margin as needed to separate image from text */
+}
+
+#composing-arranging h1 {
+  font-size: 4rem; /* Adjust the font size as needed */
+  color: rgb(0, 231, 50); /* Set the text color to white */
+  font-family: 'Kaushan Script';
+}
+
+#composing-arranging p {
+  margin-top: 1rem; /* Add spacing between the heading and the paragraph */
+  color: white; /* Set the text color to white */
+  font-family: 'Kaushan Script';
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
